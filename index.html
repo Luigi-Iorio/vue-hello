@@ -9,10 +9,16 @@
     <!-- /style css -->
   </head>
   <body>
-    <div id="app">{{ message }}</div>
+    <div id="app">
+      <h1>{{ messaggio }}</h1>
+      <img :src="immagine" :alt="testoAlt" />
+    </div>
+
     <!-- vue js -->
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <!-- /vue js -->
+    <!-- main js -->
     <script src="js/main.js"></script>
+    <!-- /main js -->
   </body>
 </html>
